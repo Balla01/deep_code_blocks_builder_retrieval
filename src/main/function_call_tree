@@ -1,0 +1,54 @@
+// Function Call Tree
+digraph {
+	node [color=lightblue shape=box style=filled]
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:transfer_layoutlm_embeddings_to_gpt"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":transfer_layoutlm_embeddings_to_gpt -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":transfer_layoutlm_embeddings_to_gpt -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:__init__"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":__init__ -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":__init__ -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:forward"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":forward -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":forward -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:get_num_params"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":get_num_params -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":get_num_params -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:_init_weights"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":_init_weights -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":_init_weights -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:crop_block_size"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":crop_block_size -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":crop_block_size -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:from_pretrained"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":from_pretrained -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":from_pretrained -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:configure_optimizers"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":configure_optimizers -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":configure_optimizers -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:estimate_mfu"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":estimate_mfu -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":estimate_mfu -> get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py:generate"
+	from_pretrained
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":generate -> from_pretrained
+	get_num_params
+	"/home/ntlpt19/personal_projects/deep_code_block_builder/src/data/model.py":generate -> get_num_params
+}
